@@ -1,2 +1,2 @@
 # Ersinkos
-WebSitem
+Web Teknolojileri dersinde verilen proje.
