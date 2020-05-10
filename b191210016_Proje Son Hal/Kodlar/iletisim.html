@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Teknolojileri Proje">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Ersin Köseoğlu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/iletisim.css"
+    <script src="Java Script/dogrulama.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>Ersin Köseoğlu B191210016</title>
+</head>
+<body background="resimler/arkaplan.png" onload='document.form_iletisim.mail.focus()'>
+    <div>
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="main.html"> Anasayfa </a></li>
+                        <li><a href="ozgecmis.html"> Özgeçmiş </a></li>
+                        <li><a href="sehrim.html"> Şehrim </a></li>
+                        <li><a href="iletisim.html"> İletişim </a></li>
+                        <li><a href="index.php">Giriş</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div class="form" name="form_iletisim" action="#" >
+                <form name="form_iletisim" action="#">
+                    <table background="resimler/iletisimbackground.jpg">
+                        <tr>
+                            <th>
+                                İLETİŞİM
+                            </th>
+                        </tr>
+                            <tr>
+                                <td>
+                                    Ad Soyad:
+                                    <input type="text" name="ad_soyad">    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    E-mail:
+                                    <input type="email" name="email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>Mesaj</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea name="mesaj" rows="10" cols="30" required placeholder="mesajınızı yazınız"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="hidden" name="submit_gonder" value="1">
+                                    <button type="submit">Gönder</button>
+                                    <input type="reset" value="Temizle">
+                                </td>
+                                
+                            </tr>
+                
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
